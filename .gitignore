@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Build artifacts
+dist/
+build/
+*.spec
+
+# Large data files (exceed GitHub 100MB limit)
+data/*.tif
+data/*.csv
+data/*.png
+!data/test/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Virtual environment
+venv/
+.env/
